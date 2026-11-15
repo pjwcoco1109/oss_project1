@@ -18,3 +18,4 @@ AI 를 전혀 쓰지 않았다면 표를 지우고 "이 과제에서 생성형 A
 |2026-11-15|ChatGPT|F1|entities.py 실행 중 발생한 IndentationError의 원인과 해결 방법|들여쓰기 오류가 발생한 부분을 확인하고 함수 내부 코드의 들여쓰기를 수정함|
 |2026-11-15|ChatGPT|기타|main.py 실행 중 창이 바로 종료되는 문제의 원인과 확인 방법|IDLE에서 main.py를 실행하고 오류 메시지를 확인하는 방법을 참고함
 |2026-11-15|ChatGPT|기타|과제의 AI_USAGE.md 작성 요건과 기록 방법|과제 안내문의 작성 기준을 확인하고 실제 AI 사용 내역을 정리함
+| 2026-11-15 | Gemini | 기타 | main 브랜치에 md 파일이 먼저 올라간 상태에서 feature/move 브랜치를 --no-ff로 머지하는 방법 및 병합 상태 점검 | 안내받은 대로 main 브랜치로 이동 후 git pull origin main과 git merge --no-ff feature/move를 순서대로 실행하여 원격 저장소에 반영함 |
