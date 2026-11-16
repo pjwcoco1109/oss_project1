@@ -21,3 +21,4 @@ AI 를 전혀 쓰지 않았다면 표를 지우고 "이 과제에서 생성형 A
 |2026-11-15| Gemini | 기타 | main 브랜치에 md 파일이 먼저 올라간 상태에서 feature/move 브랜치를 --no-ff로 머지하는 방법 및 병합 상태 점검 | 안내받은 대로 main 브랜치로 이동 후 git pull origin main과 git merge --no-ff feature/move를 순서대로 실행하여 원격 저장소에 반영함 |
 |2026-11-16| Gemini | F2 | 플레이어 총알 생성·이동(entities.py) 및 스페이스바 발사 입력 처리(main.py) 구현 방법 | 안내받은 코드를 참고하여 Player.shoot, Bullet.update, Game.handle_events에 반영하고 실행 동작을 확인함 |
 |2026-11-16| Gemini | 기타 | GitHub Desktop에서 feature/bullet 브랜치 커밋 후 --no-ff 머지 및 History 확인 방법 | 안내받은 대로 GitHub Desktop에서 커밋 후 터미널 명령어(git merge --no-ff)로 main에 병합함 |
+|2026-11-16| Gemini | F3 | 총알과 적의 충돌 판정(groupcollide) 및 화면 왼쪽 상단 점수 표시 구현 방법 | 안내받은 코드를 참고하여 Game.update와 Game.draw에 반영하고 실행 동작을 확인함 |
